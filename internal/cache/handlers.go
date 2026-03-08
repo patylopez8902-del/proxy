@@ -22,7 +22,7 @@ import (
 )
 
 // DB contains the metadata of the disk cache
-type DB struct {
+type DB struct {oki
 	sync.RWMutex
 	cacheDB  map[Key]*Entry
 	cacheDir string
